@@ -1,0 +1,67 @@
+# ==========================
+# Build folders
+# ==========================
+build/
+bin/
+out/
+
+# ==========================
+# CMake
+# ==========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# Ninja
+.ninja_deps
+.ninja_log
+build.ninja
+
+# ==========================
+# Visual Studio Code
+# ==========================
+.vscode/
+
+# Kalau mau tetap commit settings tertentu
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# ==========================
+# Visual Studio
+# ==========================
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.sln
+
+# ==========================
+# Executables / binaries
+# ==========================
+*.exe
+*.dll
+*.so
+*.a
+*.o
+*.obj
+*.lib
+*.pdb
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# OS files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Temporary files
+# ==========================
+*.tmp
+*.temp
