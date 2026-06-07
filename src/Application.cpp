@@ -12,3 +12,7 @@ void Application::Init()
 
     SetTargetFPS(60);
 }
+
+void Application::Run(){
+    
+}

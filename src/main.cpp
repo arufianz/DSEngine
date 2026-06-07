@@ -16,7 +16,6 @@ int main()
     while (!WindowShouldClose())
     {
         UpdateCamera(&camera, CAMERA_FREE);
-
         BeginDrawing();
 
         ClearBackground(RAYWHITE);
